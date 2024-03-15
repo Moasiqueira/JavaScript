@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aritiméticos</title>
+</head>
+<body>
+    <script>
+    //    // alert("Hello Word!") // visualizar mensagens
+    //     //prompt("Qual o seu nome ?") // permite receber valores
+
+    //     //entrada de dados
+    //     const anoAtual = 2024
+    //     //variavel para recber o valor que a pessoa digitar no navegador
+    //     const nomePessoa = prompt("Iforme seu nome:")
+    //     //variavel para receber o valor que a pessoa digitar no navegador
+    //     //covertendo string para numero (parseInt)
+    //     const anoNascimento = parseInt(prompt("Qual seu ano de nascimento?"))
+
+    //     // processamneto de dados
+    //     // fazendo o calaculo com os valores recbidos do navegador 
+
+    //     const calcIdade = anoAtual - anoNascimento
+
+    //     //Saida de dados
+    //     alert(`A idade do(a) ${nomePessoa} é de ${calcIdade } anos`)
+   
+        const anoAtual = 2024
+
+    const nomePessoa = prompt("Informe seu Nome:")
+
+    const anoNascimento = Number(prompt("Qual seu ano de nascimento?"))
+
+    const nota1 = Number(prompt("Qual a nota da sua primeira prova?"))
+
+    const nota2 = Number(prompt("Qual a nota da sua segunda prova?"))
+
+    const nota3 = Number(prompt("Qual a nota da sua terceira prova?"))
+    
+    const calcIdade = anoAtual - anoNascimento
+
+    const calcMedia = (nota1 + nota2 + nota3) / 3
+    
+    alert (`A idade da(o) ${nomePessoa} é de: ${calcIdade} anos e
+     sua média é de: ${calcMedia.toFixed(0)}`)
+
+    </script>
+</body>
+</html>
